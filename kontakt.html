@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontakt – Hund-Mensch-Zentrum Hof</title>
+  <meta name="description" content="Kontakt zum Hund-Mensch-Zentrum Hof – Telefon, E-Mail und Anfahrt. Vereinbaren Sie ein unverbindliches Erstgespräch.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav">
+  <div class="container nav__inner">
+    <a class="nav__brand" href="index.html">
+      <svg width="30" height="30" viewBox="0 0 30 30" fill="none" aria-hidden="true">
+        <rect width="30" height="30" rx="8" fill="#7a4f2e"/>
+        <circle cx="10" cy="10" r="3" fill="white" opacity=".9"/>
+        <circle cx="20" cy="10" r="3" fill="white" opacity=".9"/>
+        <ellipse cx="15" cy="20" rx="6" ry="4" fill="white"/>
+      </svg>
+      Hund-Mensch-Zentrum Hof
+    </a>
+    <ul class="nav__links" id="navLinks">
+      <li><a href="index.html">Startseite</a></li>
+      <li><a href="leistungen.html">Leistungen</a></li>
+      <li><a href="ueber-uns.html">Über uns</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="kontakt.html" class="active">Kontakt</a></li>
+    </ul>
+    <a class="nav__cta desktop" href="tel:+491752011729">Anrufen</a>
+    <button class="nav__burger" id="burger" aria-label="Menü öffnen" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="container">
+    <span class="eyebrow">Wir freuen uns auf Sie</span>
+    <h1>Kontakt</h1>
+    <p>
+      Rufen Sie uns an oder schreiben Sie uns – wir melden uns zeitnah
+      zurück und beantworten alle Ihre Fragen.
+    </p>
+  </div>
+</section>
+
+<hr class="divider">
+
+
+<!-- KONTAKT + FORMULAR -->
+<section class="section">
+  <div class="container two-col" style="align-items:start; gap:4rem">
+
+    <!-- LINKE SPALTE: Kontaktinfos -->
+    <div>
+      <h2 style="font-size:clamp(1.6rem,3vw,2.4rem); color:#3e2612; margin-bottom:1.5rem">
+        So erreichen Sie uns
+      </h2>
+
+      <div style="display:flex; flex-direction:column; gap:.75rem; margin-bottom:2rem">
+
+        <div class="card" style="display:flex; align-items:flex-start; gap:1rem; padding:1.25rem 1.5rem">
+          <span style="font-size:1.4rem; flex-shrink:0; margin-top:.1rem">📞</span>
+          <div>
+            <strong style="display:block; font-size:.8rem; color:var(--muted);
+                           text-transform:uppercase; letter-spacing:.05em; margin-bottom:.3rem">
+              Telefon
+            </strong>
+            <a href="tel:+491752011729"
+               style="display:block; font-weight:800; font-size:1.05rem;
+                      color:var(--text); text-decoration:none">
+              0175 2011729
+            </a>
+            <a href="tel:+499281784993"
+               style="display:block; font-weight:600; font-size:.95rem;
+                      color:var(--muted); text-decoration:none; margin-top:.2rem">
+              09281 784993
+            </a>
+          </div>
+        </div>
+
+        <div class="card" style="display:flex; align-items:flex-start; gap:1rem; padding:1.25rem 1.5rem">
+          <span style="font-size:1.4rem; flex-shrink:0; margin-top:.1rem">✉️</span>
+          <div>
+            <strong style="display:block; font-size:.8rem; color:var(--muted);
+                           text-transform:uppercase; letter-spacing:.05em; margin-bottom:.3rem">
+              E-Mail
+            </strong>
+            <a href="mailto:yalbrecht67@gmx.de"
+               style="font-weight:700; font-size:1rem; color:var(--text); text-decoration:none">
+              yalbrecht67@gmx.de
+            </a>
+          </div>
+        </div>
+
+        <div class="card" style="display:flex; align-items:flex-start; gap:1rem; padding:1.25rem 1.5rem">
+          <span style="font-size:1.4rem; flex-shrink:0; margin-top:.1rem">📍</span>
+          <div>
+            <strong style="display:block; font-size:.8rem; color:var(--muted);
+                           text-transform:uppercase; letter-spacing:.05em; margin-bottom:.3rem">
+              Adresse
+            </strong>
+            <address style="font-style:normal; font-weight:600; color:var(--text); line-height:1.6">
+              Geigen 17<br>
+              95030 Hof (Saale)
+            </address>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- KARTE PLATZHALTER -->
+      <div class="img-placeholder" style="width:100%; aspect-ratio:4/3; border-radius:var(--radius)">
+        <span class="ph-icon">🗺️</span>
+        <span>Kartenausschnitt / Anfahrtsskizze<br>800 × 600 px</span>
+      </div>
+      <!-- Alternativ: Google Maps Embed (kein JS nötig)
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d..."
+        width="100%" height="300" style="border:0; border-radius:var(--radius)"
+        allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+        title="Standort Hund-Mensch-Zentrum Hof">
+      </iframe> -->
+
+      <p style="font-size:.85rem; color:var(--muted); margin-top:.75rem">
+        §11 (1) 8f TierSchG – offiziell geprüft und zugelassen
+      </p>
+    </div>
+
+    <!-- RECHTE SPALTE: Kontaktformular -->
+    <div>
+      <h2 style="font-size:clamp(1.6rem,3vw,2.4rem); color:#3e2612; margin-bottom:.5rem">
+        Nachricht schreiben
+      </h2>
+      <p style="color:var(--muted); margin-bottom:1.75rem; font-size:.95rem">
+        Füllen Sie das Formular aus – wir melden uns so schnell wie möglich bei Ihnen.
+      </p>
+
+      <form id="contactForm" novalidate>
+
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:1rem">
+          <div class="form-group">
+            <label for="vorname">Vorname *</label>
+            <input type="text" id="vorname" name="vorname"
+                   placeholder="Max" required autocomplete="given-name">
+          </div>
+          <div class="form-group">
+            <label for="nachname">Nachname *</label>
+            <input type="text" id="nachname" name="nachname"
+                   placeholder="Mustermann" required autocomplete="family-name">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="email">E-Mail-Adresse *</label>
+          <input type="email" id="email" name="email"
+                 placeholder="max@beispiel.de" required autocomplete="email">
+        </div>
+
+        <div class="form-group">
+          <label for="telefon">Telefon <span style="color:var(--muted); font-weight:400">(optional)</span></label>
+          <input type="tel" id="telefon" name="telefon"
+                 placeholder="0175 1234567" autocomplete="tel">
+        </div>
+
+        <div class="form-group">
+          <label for="betreff">Betreff</label>
+          <select id="betreff" name="betreff">
+            <option value="">Bitte wählen …</option>
+            <option>Erstgespräch anfragen</option>
+            <option>Welpenerziehung</option>
+            <option>Basiserziehung</option>
+            <option>Gruppentraining</option>
+            <option>Verhaltensänderung</option>
+            <option>VIP-Training</option>
+            <option>Hundetreff</option>
+            <option>Sonstiges</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="nachricht">Ihre Nachricht *</label>
+          <textarea id="nachricht" name="nachricht" rows="5"
+                    placeholder="Beschreiben Sie kurz Ihr Anliegen – z. B. Rasse und Alter Ihres Hundes sowie Ihr Ziel."
+                    required></textarea>
+        </div>
+
+        <!-- Datenschutz-Checkbox -->
+        <div class="form-group" style="display:flex; align-items:flex-start; gap:.75rem">
+          <input type="checkbox" id="dsgvo" name="dsgvo" required
+                 style="width:18px; height:18px; margin-top:.2rem; flex-shrink:0;
+                        accent-color:var(--primary); cursor:pointer">
+          <label for="dsgvo"
+                 style="font-weight:400; font-size:.88rem; color:var(--muted); cursor:pointer">
+            Ich habe die
+            <a href="datenschutz.html" target="_blank"
+               style="color:var(--primary); font-weight:700">Datenschutzerklärung</a>
+            gelesen und bin mit der Verarbeitung meiner Daten zur Bearbeitung
+            meiner Anfrage einverstanden. *
+          </label>
+        </div>
+
+        <div id="formFeedback" style="display:none; padding:.75rem 1rem;
+             border-radius:var(--radius-md); font-size:.9rem; font-weight:700;
+             margin-bottom:1rem"></div>
+
+        <button type="submit" class="btn-primary-warm"
+                style="width:100%; justify-content:center; font-size:1rem">
+          Nachricht senden →
+        </button>
+
+        <p style="font-size:.78rem; color:var(--muted); margin-top:.75rem; text-align:center">
+          * Pflichtfelder · Ihre Daten werden nicht an Dritte weitergegeben.
+        </p>
+
+      </form>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div>
+        <h6>Hund-Mensch-Zentrum Hof</h6>
+        <address>
+          <p>Geigen 17</p>
+          <p>95030 Hof (Saale)</p>
+          <p>§11 TierSchG – geprüft</p>
+        </address>
+      </div>
+      <div>
+        <h6>Kontakt</h6>
+        <p><a href="tel:+491752011729">0175 2011729</a></p>
+        <p><a href="tel:+499281784993">09281 784993</a></p>
+        <p><a href="mailto:yalbrecht67@gmx.de">yalbrecht67@gmx.de</a></p>
+      </div>
+      <div>
+        <h6>Navigation</h6>
+        <ul>
+          <li><a href="index.html">Startseite</a></li>
+          <li><a href="leistungen.html">Leistungen</a></li>
+          <li><a href="ueber-uns.html">Über uns</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- Datenschutz unauffällig im Footer -->
+    <div style="text-align:center; padding-top:1rem; border-top:1px solid var(--border);
+                margin-top:1rem">
+      <p class="footer__copy" style="border:none; padding:0; margin:0">
+        © 2026 Hund-Mensch-Zentrum Hof · Yvonne Albrecht ·
+        <a href="datenschutz.html"
+           style="color:var(--muted); text-decoration:none; font-size:.82rem">
+          Datenschutzerklärung
+        </a>
+      </p>
+    </div>
+  </div>
+</footer>
+
+<div class="mobile-bar">
+  <a href="tel:+491752011729" class="m-call">📞 Anrufen</a>
+  <a href="mailto:yalbrecht67@gmx.de" class="m-mail">✉️ E-Mail</a>
+</div>
+
+<script>
+  // Nav Burger
+  const burger = document.getElementById('burger');
+  const navLinks = document.getElementById('navLinks');
+  burger.addEventListener('click', () => {
+    navLinks.classList.toggle('open');
+    burger.setAttribute('aria-expanded', navLinks.classList.contains('open'));
+  });
+  navLinks.querySelectorAll('a').forEach(a =>
+          a.addEventListener('click', () => navLinks.classList.remove('open'))
+  );
+
+  // Formular-Validierung (kein echter Versand – statische Seite)
+  document.getElementById('contactForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const fb = document.getElementById('formFeedback');
+    const required = this.querySelectorAll('[required]');
+    let valid = true;
+    required.forEach(f => {
+      if (f.type === 'checkbox' && !f.checked) valid = false;
+      if (f.type !== 'checkbox' && !f.value.trim()) valid = false;
+    });
+    fb.style.display = 'block';
+    if (valid) {
+      fb.style.background = '#d4dfcc';
+      fb.style.color = '#1e3f0a';
+      fb.textContent = '✓ Vielen Dank! Wir melden uns so schnell wie möglich bei Ihnen.';
+      this.reset();
+    } else {
+      fb.style.background = '#e0ced7';
+      fb.style.color = '#561740';
+      fb.textContent = '✗ Bitte füllen Sie alle Pflichtfelder aus und bestätigen Sie die Datenschutzerklärung.';
+    }
+  });
+</script>
+
+</body>
+</html>
