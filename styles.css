@@ -80,6 +80,29 @@ hr.divider {
     text-decoration: none;
     white-space: nowrap;
 }
+
+/* Logo-Platzhalter in der Navbar:
+   Solange noch kein echtes Logo vorhanden ist, zeigt dieser Block
+   eine gestrichelte Box. Sobald ein Bild bereitsteht, den Platzhalter
+   im HTML durch <img class="nav__logo-img" ...> ersetzen. */
+.nav__logo-placeholder {
+    width: 160px;
+    height: 44px;
+    padding: 0;
+    border-radius: .6rem;
+    gap: .3rem;
+    flex-direction: row;
+}
+.nav__logo-placeholder .ph-icon { font-size: 1rem; margin: 0; }
+.nav__logo-placeholder span:last-child { font-size: .75rem; }
+
+/* Sobald ein echtes Logo-Bild eingesetzt wird, diese Klasse nutzen: */
+.nav__logo-img {
+    max-height: 44px;
+    width: auto;
+    flex-shrink: 0;
+}
+
 .nav__links {
     display: flex;
     align-items: center;
@@ -174,7 +197,6 @@ hr.divider {
     font-size: .82rem;
     font-weight: 800;
     letter-spacing: .06em;
-    text-transform: uppercase;
     color: var(--primary);
     background: rgba(122, 79, 46, .08);
     border-radius: 999px;
