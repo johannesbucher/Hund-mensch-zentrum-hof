@@ -12,8 +12,8 @@
     --text:        #2e2016;
     --muted:       #7a6a5e;
     --border:      rgba(46, 32, 22, 0.10);
-    --font-head:   'Cormorant Garamond', Georgia, serif;
-    --font-body:   'Nunito', sans-serif;
+    --font-head:   "Segoe Print", "Bradley Hand", cursive;
+    --font-body:   Calibri, Candara, "Segoe UI", Arial, sans-serif;
     --radius:      1rem;
     --shadow:      0 2px 12px rgba(46, 32, 22, 0.08);
 }
@@ -604,12 +604,18 @@ hr.divider {
 }
 
 /* --- BILDKLASSEN (contain = verkleinern, nicht zuschneiden) --- */
-.hero-img {
-    width: 100%;
-    aspect-ratio: 16/7;
-    object-fit: contain;
-    background: var(--sand);
+.hero-media {
+    width: min(100% - 2rem, 1100px);
+    margin: 2rem auto 0;
     border-radius: var(--radius);
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    background: var(--sand);
+}
+
+.hero-media .hero-img {
+    width: 100%;
+    height: auto;
     display: block;
 }
 
