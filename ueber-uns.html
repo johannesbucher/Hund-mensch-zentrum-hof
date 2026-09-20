@@ -7,7 +7,7 @@
     <meta name="description" content="Yvonne Albrecht – Inhaberin des Hund-Mensch-Zentrum Hof. Geprüft nach §11 TierSchG. Individuelle Betreuung für Hund und Halter in Hof (Saale).">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=Patrick+Hand&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -36,7 +36,12 @@
 <!-- PAGE HERO -->
 <section class="page-hero">
     <div class="container">
-        <span class="eyebrow">Das Team</span>
+        <h1 class="hero__title hero__title--logo">
+            <img src="pictures/Logo_ohne_Hintergrund.png"
+                 alt="Hund-Mensch-Zentrum Hof"
+                 class="hero__logo-img"
+            >
+        </h1>
         <h1>Über uns</h1>
         <p>
             Das Hund-Mensch-Zentrum Hof steht für individuelle, fachkundige Begleitung –
@@ -48,43 +53,59 @@
 <hr class="divider">
 
 
-<!-- PORTRAIT -->
+<!-- MEIN WEG -->
 <section class="section">
-    <div class="container two-col">
+    <div class="container" style="max-width:780px; margin-inline:auto;">
+
+        <span class="eyebrow">Inhaberin</span>
+        <h2>Mein Weg, mein Ansatz und mein Anliegen</h2>
 
         <!-- PORTRAIT-BILD -->
-        <div class="img-placeholder section-img" style="min-height:320px">
-            <span class="ph-icon">📸</span>
-            <span>Portrait Yvonne Albrecht · 800 × 640 px</span>
-        </div>
-        <!-- Wenn Bild bereit, div oben löschen und das hier einkommentieren:
-        <img src="assets/yvonne.jpg"
+        <img src="pictures/Bild 1A für Startseite.jpg"
              alt="Yvonne Albrecht, Inhaberin Hund-Mensch-Zentrum Hof"
              class="section-img"
-             width="800" height="640"
-             loading="lazy"> -->
+             loading="lazy"
+             style="margin-bottom:2rem"
+             height="300"
+        >
 
-        <div>
-            <span class="eyebrow">Inhaberin</span>
-            <h2>Yvonne Albrecht</h2>
-            <p style="color:var(--muted)">
-                Das Hund-Mensch-Zentrum Hof wurde von Yvonne Albrecht gegründet –
-                mit dem Ziel, Hundebesitzern und ihren Hunden eine vertrauensvolle,
-                individuelle Begleitung zu bieten, die wirklich auf das jeweilige
-                Hund-Mensch-Team eingeht.
+        <blockquote style="border:none; padding:0; margin:0 0 1.5rem;">
+            <p style="font-family:var(--font-head); font-style:italic; font-size:1.2rem; color:var(--text); margin:0;">
+                „Man lebt das Leben vorwärts und versteht es rückwärts"
             </p>
-            <p style="color:var(--muted)">
-                Das Zentrum ist offiziell geprüft und zugelassen nach
-                §11 (1) 8f TierSchG – ein Qualitätsmerkmal, das für fundiertes
-                Fachwissen und verantwortungsvollen Umgang mit Tieren steht.
+            <p style="color:var(--muted); font-size:.9rem; margin-top:.4rem;">
+                (frei nach Sören Kierkegaard)
             </p>
-            <p style="color:var(--muted); margin-bottom:1.5rem">
-                <!-- Hier weiteren Originaltext einfügen, z. B. Ausbildung, Erfahrung, Motivation -->
-            </p>
-            <div style="display:flex; gap:.75rem; flex-wrap:wrap">
-                <a href="tel:+491752011729" class="btn-primary-warm">📞 Kontakt aufnehmen</a>
-                <a href="leistungen.html" class="btn-outline">Leistungen ansehen</a>
-            </div>
+        </blockquote>
+
+        <p style="color:var(--muted)">
+            Das trifft oft auch auf den Umgang mit unseren Hunden zu.
+        </p>
+        <p style="color:var(--muted)">
+            Ich bin mit Hunden aufgewachsen. Rückblickend auf den Beginn meines eigenverantwortlichen
+            Zusammenlebens mit Hunden ab 1995 weiß ich, dass ich damals einige Wege im Umgang mit
+            dem Hund gegangen bin, die ich schon lange hinter mir gelassen habe.
+        </p>
+        <p style="color:var(--muted)">
+            Durch jahrelange Praxis, tiefe Einblicke in die Verhaltensbiologie und kontinuierliche
+            Weiterbildung basiert meine Arbeit heute auf einem wissenschaftlichen Fundament.
+        </p>
+        <p style="color:var(--muted)">
+            Für mich ist kynologische Weiterbildung weder Pflichtprogramm noch bloße
+            Selbstverständlichkeit. Sie prägt jeden Schritt meiner Arbeit mit Hunden und ist
+            mein täglicher Anspruch.
+        </p>
+        <p style="color:var(--muted)">
+            Es ist mir ein großes Anliegen, dir wertvolles Wissen und eine faire Begleitung für
+            euren gemeinsamen Weg zu bieten.
+        </p>
+        <p style="font-family:var(--font-head); font-size:1.15rem; color:var(--text); margin-bottom:1.5rem;">
+            Yvonne Albrecht
+        </p>
+
+        <div style="display:flex; gap:.75rem; flex-wrap:wrap">
+            <a href="tel:+491752011729" class="btn-primary-warm">📞 Kontakt aufnehmen</a>
+            <a href="leistungen.html" class="btn-outline">Leistungen ansehen</a>
         </div>
 
     </div>
